@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>nacos-discovery-provider</artifactId>
+    <artifactId>nacos-config-client-load</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>nacos-discovery-provider</name>
-    <description>nacos 服务提供方</description>
+    <name>nacos-discovery-consumer</name>
+    <description>nacos 配置中心加载顺序</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

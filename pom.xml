@@ -11,11 +11,12 @@
 
     <modules>
         <module>nacos-discovery-provider</module>
-        <module>nacos-discovery-provider-2</module>
         <module>nacos-discovery-consumer</module>
         <module>nacos-discovery-consumer-feign</module>
         <module>nacos-discovery-gateway-server</module>
         <module>nacos-discovery-consumer-webflux</module>
+
+        <module>nacos-config-client</module>
     </modules>
 
 
